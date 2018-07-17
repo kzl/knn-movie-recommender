@@ -17,7 +17,7 @@ C++
 
 ### Installation
 
-Compile model.cpp into any directory. Save the movies and ratings csv files into a folder called 'data' in the same directory.
+Compile model.cpp into any directory. Save the movies and ratings csv files into a folder called "data" in the same directory.
 
 ### Running
 
