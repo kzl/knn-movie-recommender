@@ -45,6 +45,8 @@ double user_dist(map<int, double> sample_ratings, int user_id) {
 			} else {
 				cost += pow(it->second - 0.5, 2);
 			}
+		} else {
+			cost += pow(user_ratings.find(it->first)->second - it->second, 2);
 		}
 	}
 	
